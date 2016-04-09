@@ -1,0 +1,7 @@
+/vendor/*
+/config/app.php
+/config/bootstrap.php
+composer.phar
+composer.lock
+/tmp/*
+/logs/*

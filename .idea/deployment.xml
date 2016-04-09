@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="downloads.supertuxproject.org" createEmptyFolders="true">
+    <serverData>
+      <paths name="downloads.supertuxproject.org">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/addons" local="$PROJECT_DIR$" web="/addons" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/addons/vendor" />
+            <excludedPath path="/addons/tmp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/vendor" />
+            <excludedPath local="true" path="$PROJECT_DIR$/tmp" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="mcklein-db3">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="supertuxproject.org">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
