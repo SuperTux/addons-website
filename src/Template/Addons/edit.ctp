@@ -20,6 +20,14 @@
             echo $this->Form->input('name');
             echo $this->Form->input('token');
         ?>
+        <script type="text/javascript">
+          var nameElement = document.getElementById("name");
+          var tokenElement = document.getElementById("token");
+          var createSlug = function() {
+            tokenElement.value = Addon.slugify(nameElement.value);
+          };
+          nameElement.addEventListener("input", createSlug);
+        </script>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
     <?= $this->Form->end() ?>
